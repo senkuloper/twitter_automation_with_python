@@ -12,10 +12,10 @@ sleep(2)
 driver.maximize_window()
 sleep(3)
 email = driver.find_element_by_name('session[username_or_email]')
-email.send_keys("BotMouad")
+email.send_keys("username_or_email__your_twitter_account") #username or email
 sleep(3)
 password = driver.find_element_by_name('session[password]')
-password.send_keys("mouad20152015")
+password.send_keys("password__your_twitter_account") #password
 sleep(3)
 ent = driver.find_element_by_name("session[password]")
 ent.send_keys(u'\ue007')
